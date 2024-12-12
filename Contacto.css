@@ -1,0 +1,96 @@
+/*ESTILO GERAL*/
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    height: 100vh;
+    color: #000;
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.flex{
+    display: flex;
+    
+}
+
+/*EStilo do Cabecalho*/
+header {
+    padding: 40px 4%;
+    
+}
+
+
+header > .interface{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.interface.h1{
+    padding: 40px 4%;
+}
+section.Contacto{
+    padding: 40px 4%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.Contacto .Contacto-box{
+    color: #00FF88;
+    padding: 40px 4%;
+    margin-top: 45px;
+    transition: .2s;
+       
+}
+
+.Contacto .Contacto-box:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 8px #00FF88;
+}
+
+.Contacto .Contacto-box i{
+    font-size: 100px;
+    color: #00FF88;
+    padding: 40px 4%;
+    display: flex;
+    align-items: center;
+}
+
+.Contacto.Contacto-box h2{
+    font-size: 26px;
+margin: 15 0;
+padding: 15px 4%;
+
+
+}
+.Contacto button{
+    padding: 10px 40px; 
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #73ff00;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Contacto button:hover{
+    box-shadow: 0px 0px 8px #1fff02;
+    transform: scale(1.05);
+}
+
+.Contacto.Contacto p{
+    color: #000;
+    padding: 10px 4%;
+}

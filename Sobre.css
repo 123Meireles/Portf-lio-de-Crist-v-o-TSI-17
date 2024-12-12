@@ -1,0 +1,29 @@
+/*ESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #000;
+    height: 100vh;
+    color: #fff;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/*ESTILO DO CABECALHO*/
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    text-align: center, justify;
+}
+.interface pre{
+    padding: 25px 3%;
+}
